@@ -39,7 +39,7 @@ Now, install Adafruit's ampy by using pip
 sudo pip install adafruit-ampy --upgrade
 ```
 
-Get the bmp180.py file from the repository and upload the file to the board's filesystem.
+Get the bmp180.py file from [the repository](https://github.com/micropython-IMU/micropython-bmp180) and upload the file to the board's filesystem.
 
 ```
 ampy --port /dev/ttyUSB0 put bmp180.py
